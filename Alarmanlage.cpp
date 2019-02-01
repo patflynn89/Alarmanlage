@@ -22,7 +22,7 @@ void Alarmanlage::SetFeuer()
 void Alarmanlage::SetEinbruch()
 {
 	cout << "Es wurde eingebrochen!" << endl;
-	ihrDisplay.SetStatus("bla");
+	ihrDisplay.SetStatus('bla');
 }
 
 void Alarmanlage::Reset()
